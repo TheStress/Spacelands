@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         //Leave the stage
         SceneManager.LoadScene("Win");
-
+        Debug.Log("Working");
     }
 }
