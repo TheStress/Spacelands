@@ -1,0 +1,1812 @@
+fileFormatVersion: 2
+guid: 032ed6ad0deeeb941b34980a7bb4a6cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2848724691151298035
+    second: firegolem_0
+  - first:
+      213: -4081659173090729081
+    second: firegolem_1
+  - first:
+      213: -1711491582201179644
+    second: firegolem_2
+  - first:
+      213: 6702280770905397352
+    second: firegolem_3
+  - first:
+      213: -3660637308732685487
+    second: firegolem_4
+  - first:
+      213: 7383821275541140189
+    second: firegolem_5
+  - first:
+      213: 5030868966962912932
+    second: firegolem_6
+  - first:
+      213: -7554153984565038543
+    second: firegolem_7
+  - first:
+      213: 5722846904562781559
+    second: firegolem_8
+  - first:
+      213: 2791879074674530636
+    second: firegolem_9
+  - first:
+      213: -6609814570521560557
+    second: firegolem_10
+  - first:
+      213: 8663657645890046503
+    second: firegolem_11
+  - first:
+      213: -5312274321515883414
+    second: firegolem_12
+  - first:
+      213: 2943213263882714534
+    second: firegolem_13
+  - first:
+      213: -4111887557711924927
+    second: firegolem_14
+  - first:
+      213: 2692564301289025413
+    second: firegolem_15
+  - first:
+      213: -6100219649522662000
+    second: firegolem_16
+  - first:
+      213: 4718477401585336016
+    second: firegolem_17
+  - first:
+      213: 2062300248838570114
+    second: firegolem_18
+  - first:
+      213: 6975899469565501810
+    second: firegolem_19
+  - first:
+      213: 1057738379026607530
+    second: firegolem_20
+  - first:
+      213: -4236839215517469803
+    second: firegolem_21
+  - first:
+      213: 2242000079635452387
+    second: firegolem_22
+  - first:
+      213: 5633527705432380496
+    second: firegolem_23
+  - first:
+      213: 6698152718160586693
+    second: firegolem_24
+  - first:
+      213: -6918187404973312511
+    second: firegolem_25
+  - first:
+      213: -5367168239971594972
+    second: firegolem_26
+  - first:
+      213: 2377813683371840759
+    second: firegolem_27
+  - first:
+      213: 12171599567679283
+    second: firegolem_28
+  - first:
+      213: -6715637223984535121
+    second: firegolem_29
+  - first:
+      213: 3995233746265329567
+    second: firegolem_30
+  - first:
+      213: 5957697451833839182
+    second: firegolem_31
+  - first:
+      213: -5377625487403539130
+    second: firegolem_32
+  - first:
+      213: 3204246084819124257
+    second: firegolem_33
+  - first:
+      213: 1762724500760720547
+    second: firegolem_34
+  - first:
+      213: -946320445853867928
+    second: firegolem_35
+  - first:
+      213: -8112420318642781989
+    second: firegolem_36
+  - first:
+      213: 4196887753871801035
+    second: firegolem_37
+  - first:
+      213: -1796181921215335122
+    second: firegolem_38
+  - first:
+      213: 4747414447101814373
+    second: firegolem_39
+  - first:
+      213: 6345315320699803059
+    second: firegolem_40
+  - first:
+      213: 8423734821367146510
+    second: firegolem_41
+  - first:
+      213: 1479758394275910186
+    second: firegolem_42
+  - first:
+      213: -340642631232866672
+    second: firegolem_43
+  - first:
+      213: 5437626177491035075
+    second: firegolem_44
+  - first:
+      213: -4819307853531755511
+    second: firegolem_45
+  - first:
+      213: -7620637613883070723
+    second: firegolem_46
+  - first:
+      213: 3312734654037361786
+    second: firegolem_47
+  - first:
+      213: 7376868158584860930
+    second: firegolem_48
+  - first:
+      213: -8938618512340604484
+    second: firegolem_49
+  - first:
+      213: -4567392926249753241
+    second: firegolem_50
+  - first:
+      213: -2888917614819651487
+    second: firegolem_51
+  - first:
+      213: -3831344713778869590
+    second: firegolem_52
+  - first:
+      213: -1850775232197848194
+    second: firegolem_53
+  - first:
+      213: 2267055655489637042
+    second: firegolem_54
+  - first:
+      213: 421235621901893250
+    second: firegolem_55
+  - first:
+      213: -4894237980078568740
+    second: firegolem_56
+  - first:
+      213: 7073794327080079096
+    second: firegolem_57
+  - first:
+      213: 440740377952532891
+    second: firegolem_58
+  - first:
+      213: -7054930502822352221
+    second: firegolem_59
+  - first:
+      213: 3456497671080008909
+    second: firegolem_60
+  - first:
+      213: 3566562064428172558
+    second: firegolem_61
+  - first:
+      213: 3162157211068779231
+    second: firegolem_62
+  - first:
+      213: -7515838782094349167
+    second: firegolem_63
+  - first:
+      213: -4095749763159442540
+    second: firegolem_64
+  - first:
+      213: 3346955533153680454
+    second: firegolem_65
+  - first:
+      213: 545265464748364749
+    second: firegolem_66
+  - first:
+      213: 5943379825664922411
+    second: firegolem_67
+  - first:
+      213: -5439803018490240272
+    second: firegolem_68
+  - first:
+      213: -838619886825224514
+    second: firegolem_69
+  - first:
+      213: -883818274946140400
+    second: firegolem_70
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firegolem_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 437
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02ea019cfb4778d0800000000000000
+      internalID: -2848724691151298035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 437
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78366bd8b980b57c0800000000000000
+      internalID: -4081659173090729081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 437
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402d3de497f8f38e0800000000000000
+      internalID: -1711491582201179644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 437
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8685fb6d9d8430d50800000000000000
+      internalID: 6702280770905397352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 438
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153427933cdc23dc0800000000000000
+      internalID: -3660637308732685487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 436
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2f995345a987660800000000000000
+      internalID: 7383821275541140189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 441
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae5c57bbac31d540800000000000000
+      internalID: 5030868966962912932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_7
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 439
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132366389f04a2790800000000000000
+      internalID: -7554153984565038543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 434
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d886250f2ab6f40800000000000000
+      internalID: 5722846904562781559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_9
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 437
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4952d5f93fbeb620800000000000000
+      internalID: 2791879074674530636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 362
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a7cdc1ba83544a0800000000000000
+      internalID: -6609814570521560557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 362
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8fd61abe7b3870800000000000000
+      internalID: 8663657645890046503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 362
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64dd9476a20746b0800000000000000
+      internalID: -5312274321515883414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 362
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad72f3aed468d820800000000000000
+      internalID: 2943213263882714534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_14
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 364
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1417b3e4d04afe6c0800000000000000
+      internalID: -4111887557711924927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 364
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fea3957f8ed5520800000000000000
+      internalID: 2692564301289025413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 369
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09508529c8aa75ba0800000000000000
+      internalID: -6100219649522662000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 364
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deb33a72366b7140800000000000000
+      internalID: 4718477401585336016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 361
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28009385623ce9c10800000000000000
+      internalID: 2062300248838570114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_19
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 362
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271a9409b9f5fc060800000000000000
+      internalID: 6975899469565501810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 291
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadad2b9377ddae00800000000000000
+      internalID: 1057738379026607530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 291
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f2a46e29b335c0800000000000000
+      internalID: -4236839215517469803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 291
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1911d913f2d1f10800000000000000
+      internalID: 2242000079635452387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 291
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0545e92b99f4e2e40800000000000000
+      internalID: 5633527705432380496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_24
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 291
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c76749a86e94fc50800000000000000
+      internalID: 6698152718160586693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 291
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106fbf49539adff90800000000000000
+      internalID: -6918187404973312511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 291
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d0cb61cecf385b0800000000000000
+      internalID: -5367168239971594972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 288
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4117362f0bff020800000000000000
+      internalID: 2377813683371840759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_28
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 290
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f649c510e3b2000800000000000000
+      internalID: 12171599567679283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_29
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 291
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e20896834dc2a0800000000000000
+      internalID: -6715637223984535121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 221
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f4cc0bcebe17730800000000000000
+      internalID: 3995233746265329567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_31
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 221
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4ec7644efda250800000000000000
+      internalID: 5957697451833839182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_32
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 221
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645a9307c16de55b0800000000000000
+      internalID: -5377625487403539130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_33
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 221
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120849a56d4c77c20800000000000000
+      internalID: 3204246084819124257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 223
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a478b81894767810800000000000000
+      internalID: 1762724500760720547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 226
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860e03d719efdd2f0800000000000000
+      internalID: -946320445853867928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_36
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 223
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0c2ae93b4ea6f80800000000000000
+      internalID: -8112420318642781989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_37
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 222
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca37b31d275e3a30800000000000000
+      internalID: 4196887753871801035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_38
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 222
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e253bf92f0ea217e0800000000000000
+      internalID: -1796181921215335122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_39
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 222
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566af09694432e140800000000000000
+      internalID: 4747414447101814373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_40
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 146
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5d72e4aa61f0850800000000000000
+      internalID: 6345315320699803059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 146
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e086dad603e17e470800000000000000
+      internalID: 8423734821367146510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 146
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d7346b68298410800000000000000
+      internalID: 1479758394275910186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_43
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 146
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096b20ae45bc54bf0800000000000000
+      internalID: -340642631232866672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_44
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 146
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3e7bad234567b40800000000000000
+      internalID: 5437626177491035075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_45
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 146
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4dfe7a016e1db0800000000000000
+      internalID: -4819307853531755511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 147
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e48e477e0e3690800000000000000
+      internalID: -7620637613883070723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_47
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 147
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a740601cd9239fd20800000000000000
+      internalID: 3312734654037361786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_48
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 147
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20137538186ef5660800000000000000
+      internalID: 7376868158584860930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_49
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 147
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9253562d5a3f380800000000000000
+      internalID: -8938618512340604484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 75
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7656049255c5d90c0800000000000000
+      internalID: -4567392926249753241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_51
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 75
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1605e474cb088e7d0800000000000000
+      internalID: -2888917614819651487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_52
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 75
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaac32b384454dac0800000000000000
+      internalID: -3831344713778869590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 75
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7391cd6bb9b056e0800000000000000
+      internalID: -1850775232197848194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 75
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba00877b13367f10800000000000000
+      internalID: 2267055655489637042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 75
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ef33af09788d500800000000000000
+      internalID: 421235621901893250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_56
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 73
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0137ec7c241cb0800000000000000
+      internalID: -4894237980078568740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_57
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 73
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe08cf367a2b2260800000000000000
+      internalID: 7073794327080079096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_58
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 73
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b993802e903dd1600800000000000000
+      internalID: 440740377952532891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_59
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 73
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa438161ad71e90800000000000000
+      internalID: -7054930502822352221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 43
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc50bb8152f7ff20800000000000000
+      internalID: 3456497671080008909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 42
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0500a71d49fe7130800000000000000
+      internalID: 3566562064428172558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 46
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac1b9ca3d32eb20800000000000000
+      internalID: 3162157211068779231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_63
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c6924c27062b790800000000000000
+      internalID: -7515838782094349167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bbdf56a49f827c0800000000000000
+      internalID: -4095749763159442540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_65
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 14
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c37a01356c27e20800000000000000
+      internalID: 3346955533153680454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_66
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 2
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35d9e1d0c219700800000000000000
+      internalID: 545265464748364749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_67
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 13
+        width: 144
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b231bf946702b7250800000000000000
+      internalID: 5943379825664922411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_68
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2aacad9ffe184b0800000000000000
+      internalID: -5439803018490240272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_69
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb64438f7af9c54f0800000000000000
+      internalID: -838619886825224514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firegolem_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 13
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01736db26fb0cb3f0800000000000000
+      internalID: -883818274946140400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
