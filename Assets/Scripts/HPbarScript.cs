@@ -8,20 +8,20 @@ public class HPbarScript : MonoBehaviour
     private Image HealthBar;
     public float currentHp;
     private float maxHp = 100f;
-    PlayerController_Script player;
+    Health player;
 
 
     // Start is called before the first frame update
     void Start()
     {
         HealthBar = GetComponent<Image>();
-        player = FindObjectOfType<PlayerController_Script>();
+        player = FindObjectOfType<Health>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentHp = player.hp;
+        currentHp = player.health;
         HealthBar.fillAmount = currentHp / maxHp;
         if(currentHp <= 0)
         {
