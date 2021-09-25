@@ -176,6 +176,9 @@ MonoBehaviour:
   - {fileID: 549886565277799195, guid: be50ba3f02e03514fb1077d6b31392a6, type: 3}
   - {fileID: 3471107187154163788, guid: 648b942980e6ad0459c7dc9507f52ce5, type: 3}
   - {fileID: 538707801979149648, guid: 6c1bfbe878b048747bf4702367157cd4, type: 3}
+  exitRoomLayout: {fileID: 4781619343241000397, guid: d4c9dac4f509a084486fcf77b16677c3, type: 3}
+  zombies:
+  - {fileID: 3788551945920113349, guid: f536ae7ac7b50154ca8b14696565c2f0, type: 3}
   rooms: []
 --- !u!4 &1261430147
 Transform:
