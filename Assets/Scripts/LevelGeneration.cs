@@ -23,10 +23,7 @@ public class LevelGeneration : MonoBehaviour
         Vector2[] spawnableRooms = { new Vector2(0, 1), new Vector2(1, 0), new Vector2(0, -1), new Vector2(-1, 0) };
         for(int i = 0; i < numberOfRooms; i++)
         {
-            for(int j = 0; j < existingRooms.Length; j++)
-            {
-
-            }
+            
         }
     }
 }
