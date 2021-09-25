@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class script : MonoBehaviour
@@ -11,12 +12,12 @@ public class script : MonoBehaviour
 
     void OnMouseEnter()
     {
-        transform.localScale += new Vector3(0.25f, 0.25f, 0.0f);
+        transform.localScale += new Vector3(1.0f, 1.0f, 1.0f);
     }
 
     void OnMouseExit()
     {
-        transform.localScale -= new Vector3(0.25f, 0.25f, 0.0f);
+        transform.localScale -= new Vector3(1.0f, 1.0f, 1.0f);
     }
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,11 @@ public class script : MonoBehaviour
     }
 
     // Update is called once per frame
+    void OnMouseDown()
+    {
+        Debug.Log("Sprite Clicked");
+        SceneManager.LoadScene("LevelGeneration1");
+    }
     void Update()
     {
     }

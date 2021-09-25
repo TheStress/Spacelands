@@ -9,6 +9,8 @@ public class RoomTemplates : MonoBehaviour
     public GameObject[] leftRooms;
     public GameObject[] rightRooms;
     public GameObject[] roomLayouts;
+    public GameObject exitRoomLayout;
+    public GameObject[] zombies;
 
     public List<GameObject> rooms;
 
@@ -28,10 +30,22 @@ public class RoomTemplates : MonoBehaviour
     }
     public void AddLayouts()
     {
-        for (int i = 1; i < rooms.Count; i++)
+        for (int i = 1; i < rooms.Count - 1; i++)
         {
+            //Spawning layouts
             chance = Random.Range(0, roomLayouts.Length);
-            Instantiate(roomLayouts[chance], rooms[i].transform.position, rooms[i].transform.rotation);
+            GameObject currentLayout = Instantiate(roomLayouts[chance], rooms[i].transform.position, rooms[i].transform.rotation);
+
+            //Spawning enemies
+            Transform enemySpawn = currentLayout.transform.Find("EnemySpawn");
+            for (int j = 0; j < enemySpawn.childCount; j++)
+            {
+                Transform enemySpawnPoint = enemySpawn.GetChild(j);
+                chance = Random.Range(0, zombies.Length);
+                Instantiate(zombies[chance], enemySpawnPoint.transform.position, enemySpawnPoint.transform.rotation);
+            }
         }
+        //Creating exit room
+        Instantiate(exitRoomLayout, rooms[rooms.Count - 1].transform.position, rooms[rooms.Count - 1].transform.rotation);
     }
 }
