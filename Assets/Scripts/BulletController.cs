@@ -17,13 +17,13 @@ public class BulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = transform.right * speed;
+        rb.velocity = -1 * transform.right * speed;
         StartCoroutine(waitToDespawnBullet());
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.tag == "Enemy")
+        if(other.gameObject.tag == "Enemy")
         {
             Destroy(other.gameObject);
         }
