@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-
+    GameObject player;
+    private void Start()
+    {
+        player = GameObject.Find("sword_man");
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //Leave the stage
-        SceneManager.LoadScene("Win");
-        Debug.Log("Working");
+        if (collision.gameObject == player)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }
