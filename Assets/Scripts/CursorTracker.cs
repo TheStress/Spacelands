@@ -5,7 +5,7 @@ using UnityEngine;
 public class CursorTracker : MonoBehaviour
 {
     private Camera mainCam;
-
+    public float angle;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +17,12 @@ public class CursorTracker : MonoBehaviour
     {
         Vector3 mouse = Input.mousePosition;
 
-        Vector3 player = mainCam.WorldToScreenPoint(transform.localPosition);
+        Vector3 player = mainCam.WorldToScreenPoint(transform.position);
 
         Vector2 offset = new Vector2(mouse.x - player.x, mouse.y - player.y);
 
-        float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
-
+        angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
+        
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 }

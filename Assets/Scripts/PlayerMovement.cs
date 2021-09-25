@@ -63,7 +63,9 @@ public class PlayerMovement : MonoBehaviour
         // {
         //     anim.Play("Run");
         // }
-        if(horizontalInput != 0|| verticalInput != 0)
+
+        //Animation
+        if(horizontalInput != 0 || verticalInput != 0)
         {
             anim.Play("Run");
         }
@@ -71,7 +73,49 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.Play("Idle");
         }
+        //Player rotation
+        float pointAngle = transform.Find("Gun").GetComponent<CursorTracker>().angle;
+        if (Mathf.Abs(pointAngle) < 60 || Mathf.Abs(pointAngle) > 120)
+        {
+            if (Mathf.Abs(pointAngle) < 90)
+            {
+                transform.Find("Gun").transform.localPosition = new Vector2(0.376f, 0);
+                transform.Find("Gun").transform.localScale = new Vector2(1, 1);
 
+                transform.Find("Leg").GetComponent<SpriteRenderer>().flipX = true;
+                transform.Find("Leg (1)").GetComponent<SpriteRenderer>().flipX = true;
+                Transform body = transform.Find("Body");
+                body.GetComponent<SpriteRenderer>().flipX = false;
+                for (int i = 0; i < body.childCount; i++)
+                {
+                    body.GetChild(i).GetComponent<SpriteRenderer>().flipX = false;
+                    if(body.GetChild(i).childCount == 1)
+                    {
+                        body.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().flipX = false;
+                    }
+                }
+            }
+            else
+            {
+                transform.Find("Gun").transform.localPosition = new Vector2(-0.376f, 0);
+                transform.Find("Gun").transform.localScale = new Vector2(1, -1);
+                transform.Find("Body").transform.localScale = new Vector2(-1, 1);
+
+                transform.Find("Leg").GetComponent<SpriteRenderer>().flipX = false;
+                transform.Find("Leg (1)").GetComponent<SpriteRenderer>().flipX = false;
+                Transform body = transform.Find("Body");
+                body.GetComponent<SpriteRenderer>().flipX = true;
+                for (int i = 0; i < body.childCount; i++)
+                {
+                    body.GetChild(i).GetComponent<SpriteRenderer>().flipX = true;
+                    if (body.GetChild(i).childCount == 1)
+                    {
+                        body.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().flipX = true;
+                    }
+                }
+            }
+        }
+        
         //Running
         rb.velocity = new Vector2(horizontalInput, verticalInput) * playerSpeed;
     }

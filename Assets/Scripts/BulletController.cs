@@ -17,7 +17,7 @@ public class BulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = -1 * transform.right * speed;
+        rb.velocity = transform.right * speed;
         StartCoroutine(waitToDespawnBullet());
     }
 
