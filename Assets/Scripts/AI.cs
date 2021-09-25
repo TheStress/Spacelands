@@ -18,6 +18,8 @@ public class AI : MonoBehaviour
     private bool attackCoolDown = false;
     private float clock = 0.0f;
 
+    private AudioSource audio;
+
     // Start is called before the first frame update
     public void Start()
     {
@@ -25,12 +27,16 @@ public class AI : MonoBehaviour
         target = GameObject.Find("sword_man").GetComponent<Transform>();
         anim = GetComponent<Animator>();
         php = GameObject.Find("sword_man").GetComponent<Health>();
+        audio = GetComponent<AudioSource>();
+        audio.volume = 0.5f;
+        audio.loop = true;
+        audio.Play();
     }
 
     // Update is called once per frame
     public void Update()
     {
-        if(attackCoolDown)
+        if (attackCoolDown)
         {
             clock += Time.deltaTime;
             if(clock > attacCD)
@@ -83,7 +89,6 @@ public class AI : MonoBehaviour
     {
         if (!attackCoolDown)
         {
-            
             php.TakeDamage(damage);
             attackCoolDown = true;
         }
