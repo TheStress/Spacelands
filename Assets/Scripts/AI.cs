@@ -6,10 +6,17 @@ public class AI : MonoBehaviour
 {
     public float speed;
     public Transform target;
+    public Health php;
 
     private Rigidbody2D body;
     private Transform trans;
     private Animator anim;
+
+    public float attacCD;
+    public int damage;
+
+    private bool attackCoolDown = false;
+    private float clock = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +29,15 @@ public class AI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(attackCoolDown)
+        {
+            clock += Time.deltaTime;
+            if(clock > attacCD)
+            {
+                attackCoolDown = false;
+                clock = 0.0f;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -59,6 +74,16 @@ public class AI : MonoBehaviour
         {
             body.velocity = new Vector3(0.0f, 0.0f, 0.0f);
             anim.Play("Idle");
+            attack();
+        }
+    }
+
+    private void attack()
+    {
+        if(!attackCoolDown)
+        {
+            php.TakeDamage(damage);
+            attackCoolDown = true;
         }
     }
 }
