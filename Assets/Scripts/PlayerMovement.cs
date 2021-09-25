@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private float dashCooldown = 0.0f;
     private Animator anim;
 
-
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
             dashCooldown = 0.75f;
             Dash();
         }
+
+        Camera.main.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, -10);
     }
     private void Move()
     {

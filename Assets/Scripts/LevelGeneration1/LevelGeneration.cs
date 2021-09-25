@@ -13,7 +13,7 @@ public class LevelGeneration : MonoBehaviour
     private void Start()
     {
         roomTemplates = FindObjectOfType<RoomTemplates>();
-        Invoke("Spawn", 0.1f);
+        Invoke("Spawn", 0.2f);
     }
     void Spawn()
     {
