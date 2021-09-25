@@ -16,12 +16,6 @@ public class PlayerMovement : MonoBehaviour
     private float lastDash = 0.0f;
     private float dashCooldown = 0.0f;
 
-    public Transform firePoint;
-
-    private Camera mainCam;
-
-    public GameObject bulletToFire;
-
 
     private void Start()
     {
@@ -31,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.LogError("Player is missing a Rigidbody2D component");
         }
-        mainCam = Camera.main;
     }
 
     private void Update()
@@ -41,21 +34,6 @@ public class PlayerMovement : MonoBehaviour
         {
             dashCooldown = 0.75f;
             Dash();
-        }
-
-        Vector3 mouse = Input.mousePosition;
-
-        Vector3 player = mainCam.WorldToScreenPoint(transform.localPosition);
-
-        Vector2 offset = new Vector2(mouse.x - player.x, mouse.y - player.y);
-
-        float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
-
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);
-
-        if(Input.GetMouseButtonDown(0))
-        {
-            Instantiate(bulletToFire, firePoint.position, transform.rotation);
         }
     }
     private void Move()
