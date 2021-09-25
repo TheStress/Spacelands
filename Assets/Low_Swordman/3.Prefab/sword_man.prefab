@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 153065308}
   - component: {fileID: 153065306}
   - component: {fileID: 153065305}
+  - component: {fileID: 8165617254797704906}
   m_Layer: 0
   m_Name: sword_man
   m_TagString: Untagged
@@ -181,7 +182,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290715225530138}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -200,6 +201,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.83935237, y: 0.38418418}
   m_EdgeRadius: 0
+--- !u!114 &8165617254797704906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290715225530138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53ff2de0c005c74fab000f2ea53e3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1315759352830414
 GameObject:
   m_ObjectHideFlags: 0
