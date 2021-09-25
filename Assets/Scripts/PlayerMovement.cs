@@ -63,6 +63,16 @@ public class PlayerMovement : MonoBehaviour
         // {
         //     anim.Play("Run");
         // }
+        if(horizontalInput != 0|| verticalInput != 0)
+        {
+            anim.Play("Run");
+        }
+        else
+        {
+            anim.Play("Idle");
+        }
+
+        //Running
         rb.velocity = new Vector2(horizontalInput, verticalInput) * playerSpeed;
     }
 
