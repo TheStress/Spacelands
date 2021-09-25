@@ -15,12 +15,14 @@ public class PlayerMovement : MonoBehaviour
     private float dashAnimationDelayTime = 0.2f;
     private float lastDash = 0.0f;
     private float dashCooldown = 0.0f;
+    private Animator anim;
 
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
         if (rb == null)
         {
             Debug.LogError("Player is missing a Rigidbody2D component");
@@ -38,11 +40,11 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Move()
     {
-
         var horizontalInput = Input.GetAxisRaw("Horizontal");
         if(horizontalInput < 0)
         {
             playerDirection = Direction.Left;
+
         }
         if(horizontalInput > 0)
         {
@@ -57,6 +59,10 @@ public class PlayerMovement : MonoBehaviour
         {
             playerDirection = Direction.Up;
         }
+        // if(horizontalInput != 0 || verticalInput != 0) 
+        // {
+        //     anim.Play("Run");
+        // }
         rb.velocity = new Vector2(horizontalInput, verticalInput) * playerSpeed;
     }
 
