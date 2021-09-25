@@ -25,7 +25,7 @@ public class HPbarScript : MonoBehaviour
         HealthBar.fillAmount = currentHp / maxHp;
         if(currentHp <= 0)
         {
-            SceneManager.LoadScene("Stages Scene");
+            SceneManager.LoadScene("Death");
         }
     }
 }
