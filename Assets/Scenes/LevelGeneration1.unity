@@ -912,8 +912,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7459311218002611811, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+      propertyPath: gunshot
+      value: 
+      objectReference: {fileID: 1895162641}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+--- !u!82 &1895162641 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1895162641, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+  m_PrefabInstance: {fileID: 1895162639}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1973399929
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     private float lastDash = 0.0f;
     private float dashCooldown = 0.0f;
     private Animator anim;
-
     
     private void Start()
     {
