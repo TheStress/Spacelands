@@ -28,7 +28,7 @@ public class AI : MonoBehaviour
         anim = GetComponent<Animator>();
         php = GameObject.Find("sword_man").GetComponent<Health>();
         audio = GetComponent<AudioSource>();
-        audio.volume = 0.5f;
+        audio.volume = 0.05f;
         audio.loop = true;
         audio.Play();
     }
