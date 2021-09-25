@@ -5,29 +5,30 @@ using UnityEngine;
 public class AI : MonoBehaviour
 {
     public float speed;
-    public Transform target;
+    private Transform target;
     public Health php;
 
     private Rigidbody2D body;
     private Transform trans;
     private Animator anim;
 
-    public float attacCD;
-    public int damage;
+    private float attacCD = 1.0f;
+    private int damage = 10;
 
     private bool attackCoolDown = false;
     private float clock = 0.0f;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        trans = GetComponent<Transform>();
+        target = GameObject.Find("sword_man").GetComponent<Transform>();
         anim = GetComponent<Animator>();
+        php = GameObject.Find("sword_man").GetComponent<Health>();
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if(attackCoolDown)
         {
@@ -43,7 +44,7 @@ public class AI : MonoBehaviour
     private void FixedUpdate()
     {
         body.rotation = 0.0f;
-        Vector2 direction = target.position - trans.position;
+        Vector2 direction = target.position - this.transform.position;
         if (direction.sqrMagnitude > 1.0f)
         {
             Vector2 velocity = direction.normalized * speed * Time.deltaTime;
@@ -80,8 +81,9 @@ public class AI : MonoBehaviour
 
     private void attack()
     {
-        if(!attackCoolDown)
+        if (!attackCoolDown)
         {
+            
             php.TakeDamage(damage);
             attackCoolDown = true;
         }
