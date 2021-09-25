@@ -18,6 +18,7 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         rb.velocity = transform.right * speed;
+        StartCoroutine(waitToDespawnBullet());
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,6 +27,12 @@ public class BulletController : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        Destroy(gameObject);
+    }
+
+    IEnumerator waitToDespawnBullet()
+    {
+        yield return new WaitForSeconds(5);
         Destroy(gameObject);
     }
 }

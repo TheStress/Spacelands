@@ -9,13 +9,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Direction playerDirection = Direction.Right;
     private float playerSpeed = 5.0f;
-    private float dashDistance = 1000f;
+    public float dashDistance = 1500f;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private float dashAnimationDelayTime = 0.2f;
     private float lastDash = 0.0f;
     private float dashCooldown = 0.0f;
-    private bool dashing = false;
 
     public Transform firePoint;
 
@@ -40,15 +39,15 @@ public class PlayerMovement : MonoBehaviour
         Move();
         if(Input.GetKeyDown(KeyCode.LeftShift) && Time.time - lastDash > dashCooldown)
         {
-            dashCooldown = 1f;
-            StartCoroutine(Dash());
+            dashCooldown = 0.75f;
+            Dash();
         }
 
         Vector3 mouse = Input.mousePosition;
 
-        Vector3 screenPoint = mainCam.WorldToScreenPoint(transform.localPosition);
+        Vector3 player = mainCam.WorldToScreenPoint(transform.localPosition);
 
-        Vector2 offset = new Vector2(mouse.x - screenPoint.x, mouse.y - screenPoint.y);
+        Vector2 offset = new Vector2(mouse.x - player.x, mouse.y - player.y);
 
         float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
 
@@ -58,8 +57,6 @@ public class PlayerMovement : MonoBehaviour
         {
             Instantiate(bulletToFire, firePoint.position, transform.rotation);
         }
-
-
     }
     private void Move()
     {
@@ -85,11 +82,9 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(horizontalInput, verticalInput) * playerSpeed;
     }
 
-    IEnumerator Dash()
+    private void Dash()
     {
         lastDash = Time.time;
-        sr.color = new Color(1,0,0,1);
-        dashing = true;
         switch(playerDirection)
         {
             case Direction.Left:
@@ -108,9 +103,6 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("player is not facing any direction");
                 break;
         }
-        yield return new WaitForSeconds(dashAnimationDelayTime);
-        sr.color = new Color(1,1,1,1);
-        dashing = false;
     }
 
 }
