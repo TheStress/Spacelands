@@ -20,12 +20,20 @@ public class AI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
     {
-        Vector3 direction = target.position - trans.position;
-        body.velocity = direction.normalized * speed * Time.deltaTime;
+        body.rotation = 0.0f;
+        Vector2 direction = target.position - trans.position;
+        if (direction.sqrMagnitude > 1.0f)
+        {
+            body.velocity = direction.normalized * speed * Time.deltaTime;
+        }
+        else
+        {
+            body.velocity = new Vector3(0.0f, 0.0f, 0.0f);
+        }
     }
 }
